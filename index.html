@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <hr>
+    <form action="#">
+        <fieldset>
+            <legend>Entradas de usuario</legend>
+            <div>
+                <label for="usurio">Nombre:</label>
+                <input id="usuario" type="text" name="usuario" size="20" maxsize="30" value="Escribe tu nombre">
+
+            </div><br>
+            <div>
+                <label for="email">Correo:</label>
+                <input id="email" type="text" name="email">
+
+            </div><br>
+            <div>
+                <label for="ciudad">Ciudad:</label>
+                <select name="ciudad">
+                    <option value="ME">Mexico</option>
+                    <option value="PU">Puebla</option>
+                    <option value="Ma">Madrid</option>
+                    <option value="" selected="selected">Selecciona tu ciudad</option>
+                </select>
+            </div><br>
+            <div> Gustos: <br>
+                <input type="checkbox" id="deportes" name="gustos" value="deportes">
+                <label for="deportes">Deportes</label><br>
+                <input type="checkbox" id="juegos" name="gustos" value="juegos">
+                <label for="juegos">Juegos</label><br>
+                <input type="checkbox" id="leer" name="gustos" value="leer">
+                <label for="leer">Leer</label><br>
+                <input type="checkbox" id="comida" name="gustos" value="comida">
+                <label for="comida">Comida</label><br>
+
+            </div><br>
+            <div>sexo<br>
+                <input type="radio" id="masculino" name="sexo" value="masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="femenino" name="sexo" value="femenino">
+                <label for="femenino">Femenino</label>
+
+            </div><br>
+            <div> sexo<br>
+                <input type="submit" name="submit" value="Enviar">
+                <input type="reset" name="reset" value="limpiar">
+            </div><br>
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
